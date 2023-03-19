@@ -1,0 +1,41 @@
+    VersionID HFSS2019
+    NumberFrequencies 1
+    Frequency 2400000000.000000
+    Success 1
+    SolverName HybridSolver
+    IterativeSolver 0
+    DistributedSolver 0
+    Precision 0
+    NumTasks 1
+    NumTets 7366
+    BasisOrder -1
+    TREECOTREE 0
+    MemoryMasterMB 70.000000
+    MemoryTotalMB 230.300781
+    NumMeshStatisticsTets 7084
+    MemoryForSMatrixOnlyMB 138.000000
+    LowFrequencyCutoff 878512.697436
+    MemoryDistributedTotalMB -1.000000
+    MemoryDistributedSMatrixOnlyMB -1.000000
+    MemoryTotalAccurate 1
+    MemorySMatrixOnlyAccurate 0
+    MemoryDistributedTotalAccurate 0
+    MemoryDistributedSMatrixOnlyAccurate 0
+    SingularMatrix 0
+    NumCores 8
+    NumKrylovVectors -1
+    MatrixSize 42604
+    TotalModes 1
+    NumberDomains 2
+    DomainID 0 1 
+    DomainType Domain FEBI 
+    DomainNumSubdomains 1 1 
+    DomainNumTets 7084 282 
+    DomainMemoryMB 227.082031 3.218750 
+IE_Accelerator_Info:UsageFile:NoFileFound:FirstRun:NewChoice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
+IE_Accelerator_Info:ReRun:Usage__Key:FreqChange:Keep_______Choice:DDM-FEBI:1:-1:2.4:ACA
