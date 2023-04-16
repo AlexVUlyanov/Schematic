@@ -4,4 +4,5 @@ Schematic module
 - Analog PID control - схемная реализация аналоговго ПИД регулятра на операционных усилителях EAGLE CAD.
 - MIFA 868 MHz - антенна на чатоту 868 МГц модель в Ansys HFSS. 
 - MIFA 2400 MHz - антенна на чатоту 2400 МГц модель в Ansys HFSS + согласование LC.
-- AWR_Design_filter - пример заграждающего фильтра на 5 ГГц микрополосковый, среда разработки Cadence AWR Design Environment. 
+- AWR_Design_filter - пример заграждающего фильтра на 5 ГГц микрополосковый, среда разработки Cadence AWR Design Environment.
+- GPS_patch_ceramic - пример модели GPS антенны и ее характеристики (Ansys) 
