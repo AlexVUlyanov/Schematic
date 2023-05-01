@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [pcb-4layer-1oz-1.6mm.PcbDoc]
+   Generated File[pcb-4layer-1oz-1.6mm.TXT]
+   Generated File[pcb-4layer-1oz-1.6mm.LDP]
+   Generated File[pcb-4layer-1oz-1.6mm.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:10:18 On 01.05.2023

@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=GND Pin=C49-2
+Removed Pin From Net: NetName=GND Pin=C51-2
+Removed Pin From Net: NetName=GND Pin=C53-2
+Removed Pin From Net: NetName=GND Pin=C54-2
+Removed Pin From Net: NetName=GND Pin=C55-2
+Removed Pin From Net: NetName=GND Pin=C56-2
+Removed Pin From Net: NetName=GND Pin=C57-2
+Removed Pin From Net: NetName=GND Pin=C60-2
+Removed Pin From Net: NetName=GND Pin=C61-2
+Removed Pin From Net: NetName=GND Pin=C63-2
+Removed Pin From Net: NetName=GND Pin=C64-2
+Removed Pin From Net: NetName=GND Pin=R307-1
+Change component parameters: Designator = "FU1" ("FU1"); Footprint = "FUSE: 1206"; UniqueID = "\OOGDMCTV\OQJYCYGI" ("\OOGDMCTV\OQJYCYGI")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "1206-13V-075A-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MaxCurrent"; Value = "0.75A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "1206-13V-075A-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeFuse"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = ", 13, 0.75A, 1206, "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VoltageMax"; Value = "13"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FU2" ("FU2"); Footprint = "FUSE: 1206"; UniqueID = "\JXYYOUEA\ABGRQVGZ" ("\JXYYOUEA\ABGRQVGZ")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "046602.5NR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MaxCurrent"; Value = "2.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "046602.5NR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeFuse"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = ", 13, 2.5A, 1206, "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VoltageMax"; Value = "13"; VariantName = "[No Variations]"
+Added Component: Designator=X11(HDR1X2)
+Add component (AddParameter): Name = "ID"; Value = "Коннектор"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "iii"; Value = "Коннектор HDR1X2      Dinkle Enterprise"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Dinkle Enterprise"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "HDR1X2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Код"; Value = "12"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_MCU Pin=C49-2
+Added Pin To Net: NetName=GND_MCU Pin=C51-2
+Added Pin To Net: NetName=GND_MCU Pin=C53-2
+Added Pin To Net: NetName=GND_MCU Pin=C54-2
+Added Pin To Net: NetName=GND_MCU Pin=C55-2
+Added Pin To Net: NetName=GND_MCU Pin=C56-2
+Added Pin To Net: NetName=GND_MCU Pin=C57-2
+Added Pin To Net: NetName=GND_MCU Pin=C60-2
+Added Pin To Net: NetName=GND_MCU Pin=C61-2
+Added Pin To Net: NetName=GND_MCU Pin=C63-2
+Added Pin To Net: NetName=GND_MCU Pin=C64-2
+Added Pin To Net: NetName=GND_MCU Pin=R307-1
+Added Pin To Net: NetName=RXD Pin=X11-1
+Added Pin To Net: NetName=TXD Pin=X11-2
+Added Member To Class: ClassName=U_07_RS485 Member=Component X11 HDR1X2
