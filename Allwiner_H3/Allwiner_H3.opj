@@ -1,6 +1,6 @@
 (ExpressProject "Allwiner_H3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/14/23]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/20/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -26,7 +26,38 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (C0805
+      (FullPartName "C0805.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (LP3220SAB5F
+      (FullPartName "LP3220SAB5F.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED_SMD
+      (FullPartName "LED_SMD.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (Resistors
+      (FullPartName "Resistors.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (VD_1N5819HW-7-F_SOD123
+      (FullPartName "VD_1N5819HW-7-F_SOD123.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -37,23 +68,37 @@
          "Allwiner_H3")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\lib\lib_h3.olb")
-      (Select "Design Resources"
-         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\allwiner_h3.dsn"
-         "Allwiner_H3" "01_A3_Main_Block"))
+      (Select "Design Resources" "Library" ".\lib\lib_h3.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 345 0 495"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 345 0 587"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1145 24 536")
-        (Scroll "-139 100")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1007 24 628")
+        (Scroll "141 0")
+        (Zoom "170")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
       (Schematic "Allwiner_H3")
-      (Page "01_A3_Main_Block"))))
+      (Page "02_A3_POWER"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1007 24 628"))
+      (Path
+         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\lib\lib_H3.OLB")
+      (Package "LP3220SAB5F")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1007 24 628"))
+      (Path
+         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\lib\lib_H3.OLB")
+      (Package "C0805")
+      (PartType "1"))))
