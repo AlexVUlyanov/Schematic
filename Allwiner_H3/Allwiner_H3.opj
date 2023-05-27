@@ -1,6 +1,6 @@
 (ExpressProject "Allwiner_H3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/21/23]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/27/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -44,6 +44,29 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (SY8032EABC
+      (FullPartName "SY8032EABC.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MOSFET_P
+      (FullPartName "MOSFET_P.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (CD54-2R2M
+      (FullPartName "CD54-2R2M.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (SY8113BADC
+      (FullPartName "SY8113BADC.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
     (C0603
       (FullPartName "C0603.Normal")
       (LibraryName
@@ -98,29 +121,38 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\allwiner_h3.dsn")
-      (Path "Design Resources"
-         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\allwiner_h3.dsn"
-         "Allwiner_H3")
-      (Path "Design Resources"
-         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\allwiner_h3.dsn"
-         "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\lib\lib_h3.olb")
-      (Select "Design Resources" "Library" ".\lib\lib_h3.olb"))
+      (Path "Design Resources" ".\allwiner_h3.dsn")
+      (Path "Design Resources" ".\allwiner_h3.dsn" "Allwiner_H3")
+      (Select "Design Resources" ".\allwiner_h3.dsn" "Allwiner_H3"
+         "03_A4_POWER_TREE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 432 0 587"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 388 0 558"))
       (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1102 24 599"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (Package "MOSFET_P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1102 24 599"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
+      (Package "SY8032EABC")
+      (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 785 24 628")
-        (Scroll "105 0")
-        (Zoom "134")
+        (Placement "44 0 1 -1 -1 5 24 5 1102 24 599")
+        (Scroll "-157 -8")
+        (Zoom "64")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
@@ -129,19 +161,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 785 24 628")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1102 24 599")
+        (Scroll "-348 -9")
+        (Zoom "90")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
       (Schematic "Allwiner_H3")
-      (Page "01_A3_Main_Block"))
+      (Page "03_A4_POWER_TREE"))
     (Doc
-      (Type "COrPrmBrowserDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 785 24 628"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1102 24 599")
+        (Scroll "606 636")
+        (Zoom "200")
+        (Occurrence "/"))
       (Path
-         "E:\Stady\Embadded_stady\FPGA_Project\DE0_NANO\Work\GitHub\Schematic\Allwiner_H3\lib\lib_H3.OLB")
-      (Package "LP3987H-33B5F")
-      (PartType "1"))))
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwiner_H3")
+      (Page "01_A3_Main_Block")))
+  (MPSSessionName "crow"))
