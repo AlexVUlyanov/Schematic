@@ -1,6 +1,6 @@
 (ExpressProject "Allwiner_H3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/27/23]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[06/16/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -44,6 +44,11 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (H3-BGA3XX_12
+      (FullPartName "H3-BGA3XX_12-2.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "1"))
     (SY8032EABC
       (FullPartName "SY8032EABC.Normal")
       (LibraryName
@@ -122,62 +127,45 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\allwiner_h3.dsn")
-      (Path "Design Resources" ".\allwiner_h3.dsn" "Allwiner_H3")
-      (Select "Design Resources" ".\allwiner_h3.dsn" "Allwiner_H3"
-         "03_A4_POWER_TREE"))
+      (Path "Design Resources" ".\allwiner_h3.dsn" "Allwinner_H3")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\lib\lib_h3.olb")
+      (Select "Design Resources" ".\allwiner_h3.dsn" "Allwinner_H3"
+         "04_A2_CPU_1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 388 0 558"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 414 0 523"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1102 24 599"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 803 24 564"))
       (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (Package "MOSFET_P")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1102 24 599"))
-      (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (Package "SY8032EABC")
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (Package "H3-BGA3XX_12")
       (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1102 24 599")
-        (Scroll "-157 -8")
-        (Zoom "64")
-        (Occurrence "/"))
-      (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
-      (Schematic "Allwiner_H3")
-      (Page "02_A2_POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1102 24 599")
-        (Scroll "-348 -9")
+        (Placement "44 0 1 -1 -1 -1 -1 5 803 24 564")
+        (Scroll "-199 0")
         (Zoom "90")
         (Occurrence "/"))
       (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
-      (Schematic "Allwiner_H3")
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwinner_H3")
       (Page "03_A4_POWER_TREE"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1102 24 599")
-        (Scroll "606 636")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -1 -1 5 803 24 564")
+        (Scroll "-32 -7")
+        (Zoom "60")
         (Occurrence "/"))
       (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\ALLWINER_H3.DSN")
-      (Schematic "Allwiner_H3")
-      (Page "01_A3_Main_Block")))
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwinner_H3")
+      (Page "04_A2_CPU_1")))
   (MPSSessionName "crow"))
