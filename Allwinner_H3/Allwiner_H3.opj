@@ -1,6 +1,6 @@
 (ExpressProject "Allwiner_H3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[06/16/23]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[06/23/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -30,7 +30,22 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\ALLWINER_H3.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -44,6 +59,60 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (LED_SMD
+      (FullPartName "LED_SMD.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (MMBT3904
+      (FullPartName "MMBT3904.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (Resistors
+      (FullPartName "Resistors.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (CH340N
+      (FullPartName "CH340N.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (C0805
+      (FullPartName "C0805.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (Type-C_SMD_USB
+      (FullPartName "Type-C_SMD_USB.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (PESD3V3X4UHMYL
+      (FullPartName "PESD3V3X4UHMYL.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    ("MicroSD card"
+      (FullPartName "MicroSD card.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (C0603
+      (FullPartName "C0603.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (H3-BGA3XX_12
       (FullPartName "H3-BGA3XX_12-2.Normal")
       (LibraryName
@@ -53,9 +122,6 @@
       (FullPartName "SY8032EABC.Normal")
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (MOSFET_P
       (FullPartName "MOSFET_P.Normal")
@@ -72,11 +138,6 @@
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0"))
-    (C0603
-      (FullPartName "C0603.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "0"))
     (LP3987H-33B5F
       (FullPartName "LP3987H-33B5F.Normal")
       (LibraryName
@@ -87,18 +148,8 @@
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0"))
-    (Resistors
-      (FullPartName "Resistors.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "0"))
     (C0402
       (FullPartName "C0402.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "0"))
-    (C0805
-      (FullPartName "C0805.Normal")
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0"))
@@ -109,11 +160,6 @@
       (DeviceIndex "0"))
     (GND_POWER
       (LibraryName "E:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (LED_SMD
-      (FullPartName "LED_SMD.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0"))
     (VD_1N5819HW-7-F_SOD123
       (FullPartName "VD_1N5819HW-7-F_SOD123.Normal")
@@ -131,27 +177,54 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\lib\lib_h3.olb")
       (Select "Design Resources" ".\allwiner_h3.dsn" "Allwinner_H3"
-         "04_A2_CPU_1"))
-    (HierarchyView)
+         "07_A2_WI-FI"))
+    (HierarchyView
+      (Path "Allwinner_H3")
+      (Select "Allwinner_H3" "R2 (150K)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 414 0 523"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 378 0 538"))
       (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 803 24 564"))
-      (Path
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
-      (Package "H3-BGA3XX_12")
-      (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 803 24 564")
-        (Scroll "-199 0")
-        (Zoom "90")
+        (Placement "44 0 1 -1 -1 5 24 5 1112 24 579")
+        (Scroll "-103 0")
+        (Zoom "74")
+        (Occurrence "/"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwinner_H3")
+      (Page "04_A2_CPU_1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1112 24 579")
+        (Scroll "0 0")
+        (Zoom "168")
+        (Occurrence "/"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwinner_H3")
+      (Page "06_A3_USB2.0_Debug"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1112 24 579")
+        (Scroll "0 364")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
+      (Schematic "Allwinner_H3")
+      (Page "02_A2_POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 1112 24 579")
+        (Scroll "214 588")
+        (Zoom "400")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
@@ -160,12 +233,29 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 803 24 564")
-        (Scroll "-32 -7")
-        (Zoom "60")
+        (Placement "44 0 1 -1 -1 5 24 5 1112 24 579")
+        (Scroll "90 547")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
       (Schematic "Allwinner_H3")
-      (Page "04_A2_CPU_1")))
-  (MPSSessionName "crow"))
+      (Page "05_A3_MicroSD"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1112 24 579"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (Package "CH340N")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1112 24 579"))
+      (Path
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (Package "XR819")
+      (PartType "1")))
+  (MPSSessionName "crow")
+  (ISPCBBASICLICENSE "false"))

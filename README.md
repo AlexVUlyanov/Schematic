@@ -7,3 +7,4 @@ Schematic module
 - AWR_Design_filter - пример заграждающего фильтра на 5 ГГц микрополосковый, среда разработки Cadence AWR Design Environment.
 - GPS_patch_ceramic - пример модели GPS антенны и ее характеристики (Ansys) 
 - Concentrator устройство обеспечивает чтение выходов типа сухой контакт сигнализаций и позволяет считывать их используя интерфейс Modbus RTU (RS-485). (Altium)
+- Проект Horseradish PI - одноплатный компьбтер на базе SoC Allwinner H3, выполненный в OrCad Cadence.

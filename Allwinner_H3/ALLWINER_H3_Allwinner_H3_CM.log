@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+                               ORCAD CM MIGRATION
+--------------------------------------------------------------------------------
+E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN
+2023-06-20 at 17:15:57                                                          
+--------------------------------------------------------------------------------
+	Number of DiffPair Migrated                                : 0
+	Number of XNET Migrated                                    : 3
+	Number of Pin Constraints Migrated                         : 0
+	Number of Net Constraints Migrated                         : 0
+	Number of Physical Class Added                             : 0
+	Number of Spacing Class Added                              : 0
+	Number of Electrical CSET Added                            : 0
+	Number of Warning Encountered                              : 0
+--------------------------------------------------------------------------------
+.XNET: 
+	N22020                                  N22020,N22024
+	PWR-STB                                 N27351,PWR-STB
+	VDD-CPUFB                               N22166,VDD-CPUFB,VDD-CPUFB1
+--------------------------------------------------------------------------------
