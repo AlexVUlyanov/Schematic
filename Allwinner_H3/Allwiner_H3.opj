@@ -1,6 +1,6 @@
 (ExpressProject "Allwiner_H3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[01/13/24]")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[01/20/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -30,7 +30,6 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (Board_sim_option "VHDL_flow")
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
     ("View Allegro Netlist Files" "FALSE")
@@ -45,7 +44,8 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\allwinner_h3-placements.csv"
@@ -61,16 +61,21 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (HY27UG088G5M-TPCB
+      (FullPartName "HY27UG088G5M-TPCB.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "0"))
+    (H3-BGA3XX_12
+      (FullPartName "H3-BGA3XX_12-7.Normal")
+      (LibraryName
+         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
+      (DeviceIndex "6"))
     (ESD5451X
       (FullPartName "ESD5451X.Normal")
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0"))
-    (H3-BGA3XX_12
-      (FullPartName "H3-BGA3XX_12-5.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "4"))
     (Conn_1x3
       (FullPartName "Conn_1x3.Normal")
       (LibraryName
@@ -174,54 +179,44 @@
       (FullPartName "XR819.Normal")
       (LibraryName
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
-      (DeviceIndex "0"))
-    (LED_SMD
-      (FullPartName "LED_SMD.Normal")
-      (LibraryName
-         "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\LIB\LIB_H3.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "e:\stady\embadded_stady\fpga_project\de0_nano\work\github\schematic\allwinner_h3\allwiner_h3.dsn")
-      (Path "Design Resources"
-         "e:\stady\embadded_stady\fpga_project\de0_nano\work\github\schematic\allwinner_h3\allwiner_h3.dsn"
-         "Allwinner_H3")
+      (Path "Design Resources" ".\allwiner_h3.dsn")
+      (Path "Design Resources" ".\allwiner_h3.dsn" "Allwinner_H3")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "e:\stady\embadded_stady\fpga_project\de0_nano\work\github\schematic\allwinner_h3\lib\lib_h3.olb")
+      (Path "Design Resources" "Library" ".\lib\lib_h3.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "e:\stady\embadded_stady\fpga_project\de0_nano\work\github\schematic\allwinner_h3\allwiner_h3.dsn"
-         "Allwinner_H3" "07_A2_WI-FI"))
+      (Select "Design Resources" ".\allwiner_h3.dsn" "Allwinner_H3"
+         "14_A2_CPU_4_NAND"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 343 0 729"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 373 0 729"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1258 24 747")
-        (Scroll "0 0")
-        (Zoom "162")
+        (Placement "44 0 1 -1 -1 5 24 5 1328 24 747")
+        (Scroll "306 208")
+        (Zoom "228")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
       (Schematic "Allwinner_H3")
-      (Page "13_A2_CPU_3"))
+      (Page "01_A3_Main_Block"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1258 24 747")
-        (Scroll "890 558")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 5 24 5 1328 24 747")
+        (Scroll "-169 -10")
+        (Zoom "81")
         (Occurrence "/"))
       (Path
          "E:\STADY\EMBADDED_STADY\FPGA_PROJECT\DE0_NANO\WORK\GITHUB\SCHEMATIC\ALLWINNER_H3\ALLWINER_H3.DSN")
       (Schematic "Allwinner_H3")
-      (Page "07_A2_WI-FI")))
+      (Page "14_A2_CPU_4_NAND")))
   (MPSSessionName "crow")
   (ISPCBBASICLICENSE "false"))

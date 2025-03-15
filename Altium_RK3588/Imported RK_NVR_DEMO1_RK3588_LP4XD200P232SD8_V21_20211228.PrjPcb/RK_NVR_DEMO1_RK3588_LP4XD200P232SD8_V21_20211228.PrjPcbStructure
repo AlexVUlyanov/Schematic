@@ -1,0 +1,43 @@
+Record=TopLevelDocument|FileName=00.Cover Page.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=01.Index and Notes.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=02.Revision History.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=03.Block Diagram.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=04.Power Tree.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=05.Power Sequence_IO Domain Map.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=06.Lower-Speed Bus Map.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=07.USB_DP Configure Map.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=08.PCIE Fun Map.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=10.RK3588_Power_GND.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=11.RK3588_OSC_PLL_PMUIO.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=12.RK3588 DDR Controler.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=13.RK3588_Flash_SD Controller.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=14.RK3588_USB30_USB20_Ctrl.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=15.RK3588_SARADC_1.8V Only GPIO.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=16.RK3588_MIPI  Interface.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=17.RK3588_HDMI_eDP Interface.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=18.RK3588_PCIE30_PCIE20_SATA30.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=19.RK3588_1.8V_ 3.3V GPIO.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=20.Power_DC IN.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=21.Power-PMIC_RK806-1.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=22.Power_Ext Discrete_RTC IC.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=25.USB2_USB3_TypeC Port.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=38.DRAM-LPDDR4X_200P_1X32bit.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=40.Flash-eMMC Flash.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=43.Flash-SPI FLASH(Option).SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=47.VI-Camera_MIPI-CSI.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=50.VO-HDMI2.1 TX.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=51.VO-HDMI2.0 TX(DP to HDMI).SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=55.VO-HDMI1.4 TX(MIPI to HDMI).SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=67.Ethernet-GEPHY_RGMII0.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=68.Ethernet-GEPHY_RGMII1.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=70.Audio Port.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=82.SATA-SATA PM0.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=83.SATA-SATA PM1.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=84.PCIE-PCIE3.0_1x4Lanes_RC_64P.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=90.IR Receiver_LED.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=91.Debug UART_JTAG.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=92.KEY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=93.HW_ID.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=95.RS485_RS232.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=98.Power Test.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00.Cover Page.SchDoc|FileName=99.Mark_Hole_Heatsink.SchDoc|SheetNumber= 
