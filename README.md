@@ -8,3 +8,4 @@ Schematic module
 - GPS_patch_ceramic - пример модели GPS антенны и ее характеристики (Ansys) 
 - Concentrator устройство обеспечивает чтение выходов типа сухой контакт сигнализаций и позволяет считывать их используя интерфейс Modbus RTU (RS-485). (Altium)
 - Проект Horseradish PI - одноплатный компьбтер на базе SoC Allwinner H3, выполненный в OrCad Cadence.
+- Altium_RK3588 - импортированный проект DEMO board RK3588 + топология печатного узла.
